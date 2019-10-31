@@ -9,6 +9,9 @@ if(debug) {
 //!steal-remove-end
 
 const AppViewModel = DefineMap.extend("AppViewModel", {
+	page: 'string',
+	slug: 'string',
+	action: 'string',
   env: {
     default: () => ({NODE_ENV:'development'})
   },
@@ -17,10 +20,22 @@ const AppViewModel = DefineMap.extend("AppViewModel", {
   },
   routeData: {
     default: () => route.data
-  }
+  },
+
+	get pageComponent() {
+		switch(this.routeData.page) {
+			case 'home': {
+				return steal.import('~/pages/home.component').then(({default: Home}) => {
+					return new Home();
+				})
+			}
+		}
+	}
 });
 
 route.urlData = new RoutePushstate();
 route.register("{page}", { page: "home" });
+route.register('{page}/{slug}',{slug: null});
+route.register('{page}/{slug}/{action}', {slug:null, action: null});
 
 export default AppViewModel;
