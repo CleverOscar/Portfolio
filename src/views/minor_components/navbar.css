@@ -1,0 +1,14 @@
+div.navbar {
+  background-color: #323a45;
+  border: 3px solid black;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+ul li {
+  width: 100%;
+}

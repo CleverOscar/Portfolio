@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './nav_bar.jsx'
+import Navbar from './nav_bar.js'
 
 class Header extends React.Component {
   render() {
