@@ -1,6 +1,7 @@
 div.navbar {
   background-color: #323a45;
   border: 3px solid black;
+  height: auto;
 }
 
 ul {
@@ -11,4 +12,12 @@ ul {
 
 ul li {
   width: 100%;
+}
+
+ul li a {
+  border: 1px solid red;
+}
+
+ul li a:visited {
+  border: 1px solid bluew;
 }

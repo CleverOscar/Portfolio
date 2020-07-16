@@ -1,5 +1,7 @@
 import React, {useState} from 'react'
 import './navbar.css'
+import {Link} from 'react-router-dom';
+
 
 function Navbar(){
 
@@ -10,13 +12,13 @@ function Navbar(){
                 OPO
               </li>
               <li>
-                Home
+                <Link to="/">Home</Link>
               </li>
               <li>
-                About Me
+                <Link to="/about">About</Link>
               </li>
               <li>
-                Projects
+                <Link to="/projects">Projects</Link>
               </li>
             </ul>
            </div>
