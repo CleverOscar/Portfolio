@@ -1,13 +1,12 @@
 import React from 'react'
-import Navbar from './nav_bar.js'
+import Navigation from './nav_bar.js'
 
 class Header extends React.Component {
   render() {
     return <div className="header_component">
-          <Navbar />
+          <Navigation />
           </div>
   }
-
 }
 
 export default Header
