@@ -17,3 +17,9 @@ code {
 .App {
   background-color: #85c3cf
 }
+
+
+.header_component {
+  border: 10px solid black;
+  border-style: double;
+}

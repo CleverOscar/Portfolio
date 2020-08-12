@@ -1,4 +1,10 @@
 .home_container {
   height: 100vh;
   text-align: center;
+  border: 2px solid red;
+}
+
+
+.dummy-Container {
+  border: 5px green solid ;
 }
