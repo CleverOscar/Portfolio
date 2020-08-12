@@ -14,7 +14,7 @@ import {
   DropdownMenu,
   DropdownItem,
   NavbarText
-} from 'reactstrap'
+} from 'reactstrap' 
 
 const Navigation = (props)=> {
   // toggler logic
