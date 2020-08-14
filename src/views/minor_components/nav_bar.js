@@ -14,7 +14,7 @@ import {
   DropdownMenu,
   DropdownItem,
   NavbarText
-} from 'reactstrap' 
+} from 'reactstrap'
 
 const Navigation = (props)=> {
   // toggler logic
@@ -34,10 +34,6 @@ const Navigation = (props)=> {
             </NavItem>
             <NavItem>
               <NavLink href="/about"> About </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/projects"> Projects
-              </NavLink>
             </NavItem>
           </Nav>
         </Collapse>

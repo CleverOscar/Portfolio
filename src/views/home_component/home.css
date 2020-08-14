@@ -8,3 +8,8 @@
 .dummy-Container {
   border: 5px green solid ;
 }
+
+.projects-container {
+  border: 2px solid orange;
+  height: 100%;
+}

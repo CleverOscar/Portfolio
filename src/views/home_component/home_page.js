@@ -17,6 +17,14 @@ function HomePage(){
           </h3>
         </Col>
         </Row>
+
+        <Row>
+          <Col className='projects-container'>
+            <h2>
+              Projects
+            </h2>
+          </Col>
+        </Row>
       </Container>
     </div>
   )
