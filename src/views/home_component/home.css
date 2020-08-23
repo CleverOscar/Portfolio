@@ -13,3 +13,16 @@
   border: 2px solid orange;
   height: 100%;
 }
+
+.header {
+  font-family: 'Roboto Mono', monospace;
+  margin: 25px 0px;
+}
+
+.quick-bio {
+  border: 1px solid green;
+}
+
+img.selfie {
+  border: 2px solid black;
+}
