@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './views/header_component/header.js';
 import HomePage from './views/home_component/home_page.js';
-import AboutMe from './views/minor_components/about.js'
+import AboutMe from './views/about_component/about.js'
 import {Switch, Route} from 'react-router-dom';
 
 function App() {

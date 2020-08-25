@@ -4,11 +4,6 @@
   /* border: 2px solid red; */
 }
 
-
-.dummy-Container {
-  border: 5px green solid ;
-}
-
 .projects-container {
   border: 2px solid orange;
   height: 100%;
@@ -19,8 +14,8 @@
   margin: 25px 0px;
 }
 
-.quick-bio {
-  /* border: 1px solid green; */
+div.bio {
+  border: 1px solid red;
 }
 
 img.selfie {
