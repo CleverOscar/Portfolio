@@ -19,7 +19,7 @@ const Navigation = (props)=> {
 
   return (
     <div className="navbar">
-      <Navbar expand="md">
+      <Navbar expand='sm'>
         <NavbarBrand href="/" className="text-primary">Clever Oscar</NavbarBrand>
         <NavbarToggler onClick={toggle}/>
         <Collapse isOpen={isOpen} navbar>

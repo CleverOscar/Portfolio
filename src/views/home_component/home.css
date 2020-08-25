@@ -1,7 +1,7 @@
 .home_container {
   height: 100vh;
   text-align: center;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 
@@ -20,7 +20,7 @@
 }
 
 .quick-bio {
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 img.selfie {

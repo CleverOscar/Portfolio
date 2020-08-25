@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,7 +6,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f6f7f9;
   overflow: hidden;
 }
 
@@ -15,7 +15,8 @@ code {
 }
 
 .App {
-  background-color: #85c3cf
+  background-color: #34acbc;
+  margin: 0 auto;
 }
 
 

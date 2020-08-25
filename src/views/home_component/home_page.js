@@ -8,9 +8,7 @@ function HomePage(){
   return (
     <div>
       <Container className="home_container">
-        
         <AboutMe />
-
         <Projects/>
       </Container>
     </div>
