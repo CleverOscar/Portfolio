@@ -1,12 +1,7 @@
 .home_container {
   height: 100vh;
   text-align: center;
-  border: 2px solid red;
-}
-
-
-.dummy-Container {
-  border: 5px green solid ;
+  /* border: 2px solid red; */
 }
 
 .projects-container {
@@ -19,8 +14,8 @@
   margin: 25px 0px;
 }
 
-.quick-bio {
-  border: 1px solid green;
+div.bio {
+  border: 1px solid red;
 }
 
 img.selfie {
