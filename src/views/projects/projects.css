@@ -1,0 +1,13 @@
+/* .showcase { 
+    border: 3px solid black;
+    height: auto;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+} */
+
+.gallary {
+    width: 90%;
+    height: 90%;
+    border: 10px #065464 inset;
+}
