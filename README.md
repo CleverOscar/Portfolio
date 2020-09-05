@@ -1,5 +1,6 @@
 <h1 align="center">Hi 👋, I'm Oscar Ortiz</h1>
 <h3 align="center">A passionate Full-Stack developer from Chicago</h3>
+<h4>portfolio: https://cleveroscar.netlify.app/</h4>
 
 - 🔭 I’m currently working on **a community page**
 
