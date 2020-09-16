@@ -1,9 +1,32 @@
 import React from 'react'
+import {Component} from 'react'
 import {Row, Col} from 'reactstrap'
 
-function AboutMe() {
+class AboutMe extends React.Component {
+  constructor(props){
+    super (props);
+    this.state = {
+      script: 'Welcome, my name is Oscar Ortiz!'
+    }
+  }
 
-  return (
+  componentDidMount(){
+
+  }
+
+  componentWillUnmount() {
+
+  }
+
+  typeWriter() {
+    var i = 0;
+    var sentence = 'Welcome, my name is Oscar Ortiz';
+    var speed = 50;
+
+  }
+
+  render() {
+      return (
           <div> 
             <h1 className="header">Full Stack Developer & Software Engineer</h1>
             <Row xs="1" sm="1"  className="bio">
@@ -15,7 +38,7 @@ function AboutMe() {
              </Col>
            </Row>
           </div>)
-           
+  }
 }
  
 export default AboutMe
