@@ -1,22 +1,22 @@
-import React, { useState, ReactComponent } from 'react'
-import {Row, Col} from 'reactstrap';
+import React from 'react'
+import { Row, Col} from 'reactstrap';
 import './projects.css'
 
 function Projects(){
     return (
         <div> 
-            <Row xs="1" sm="3">
-                < Col className = "showcase" > 
-                    Tinder Carousel Guide 
-                    < img className="gallary" src="https://i.imgur.com/Pg6091Z.png"/> 
+            <Row xs='1' sm='1' md='3'>
+                <Col> 
+                    <h4> Tinder Carousel Guide  </h4>
+                    < img className="gallary" src="https://i.imgur.com/Pg6091Z.png" alt=" Tinder Carousel Guide / Learn to build a Tinder like Carousel" /> 
                 </Col>
-                <Col className="showcase">
-                    Video Player Guide
-                    < img className="gallary" src="https://i.imgur.com/4Mt3r7l.png" />
+                <Col>
+                    <h4> Video Player Guide </h4>
+                    < img className="gallary" src="https://i.imgur.com/4Mt3r7l.png" alt=" Video Player Guide / Learn to build your own custom video player" />
                 </Col>
-                <Col className="showcase">
-                    Neighborhood Chef
-                    <img className="gallary" src="https://i.imgur.com/jIyYPST.png" />
+                <Col>
+                    <h4> Neighborhood Chef </h4>
+                    <img className="gallary" src="https://i.imgur.com/jIyYPST.png" alt="Neighborhood Chef / Check out your local chefs in your neighborhood" />
                 </Col>
             </Row>
         </div>

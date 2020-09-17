@@ -7,7 +7,9 @@
 } */
 
 .gallary {
-    width: 90%;
-    height: 90%;
-    border: 10px #065464 inset;
+    width: 100%;
+    height: 80%;
+    border: 5px black;
+    border-style: solid;
+    border-radius: 25px;
 }

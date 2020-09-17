@@ -6,7 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow: hidden;
+  overflow: auto;
 }
 
 code {
@@ -15,10 +15,10 @@ code {
 }
 
 .App {
-  background-color: #34acbc;
   margin: 0 auto;
+  background-color: #34acbc;
+  height: 100%
 }
-
 
 .header_component {
   border: 10px solid black;

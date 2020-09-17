@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 import './navbar.css'
-import {  Link  } from 'react-router-dom';
 import {
   Collapse,
   Navbar,
@@ -19,9 +18,9 @@ const Navigation = (props)=> {
 
   return (
     <div className="navbar">
-      <Navbar expand='sm'>
+      <Navbar light expand='sm'>
         <NavbarBrand href="/" className="text-primary">Clever Oscar</NavbarBrand>
-        <NavbarToggler onClick={toggle}/>
+        <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
