@@ -27,7 +27,7 @@ const Navigation = (props)=> {
               <NavLink href="/">Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/about"> About </NavLink>
+              <NavLink href="/AboutMe"> About </NavLink>
             </NavItem>
           </Nav>
         </Collapse>

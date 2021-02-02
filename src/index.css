@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -16,9 +15,9 @@ code {
 
 .App {
   margin: 0 auto;
-  background-color: #34acbc;
-  height: 100%
+  height: 100%;
 }
+
 
 .header_component {
   border: 10px solid black;

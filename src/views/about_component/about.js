@@ -3,6 +3,7 @@ import { Component } from 'react'
 import { Container } from 'reactstrap';
 
 class AboutMe extends Component {
+
   constructor(props){
     super (props);
     this.state = {
@@ -10,31 +11,15 @@ class AboutMe extends Component {
     }
   }
 
-  componentDidMount(){
-
-  }
-
-  componentWillUnmount() {
-
-  }
-
-  // typeWriter() {
-  //   var i = 0;
-  //   var sentence = 'Welcome, my name is Oscar Ortiz';
-  //   var speed = 50;
-  // }
-
   render() {
       return (
-          <div> 
-              <Container> 
+          <div className="aboutMe"> 
                 <img alt="Profile Oscar" 
                      className="selfie" 
-                     src="https://media-exp1.licdn.com/dms/image/C5103AQHV3EbEhHOjaw/profile-displayphoto-shrink_200_200/0?e=1602115200&v=beta&t=XDtIKMn0jhBC7G3b6oFFlYCnkCcKJu-ps1xEwjEb_0s" />                
+                     src="https://media-exp1.licdn.com/dms/image/C5103AQHV3EbEhHOjaw/profile-displayphoto-shrink_400_400/0/1517567233172?e=1617840000&v=beta&t=iiRvtdOQEkWV_fbY9Hadheb-C2OsBw10jfVumMnKxK0" />                
                 
                 <hr className="my-2" />
-                <p className="lead text-muted">Hello world, I'm Oscar Ortiz & I am a Full-Stack Web Dev / Software Engineer </p>
-              </Container>
+                <p className="lead text-muted">Hello, my name is Oscar Ortiz & I am a Full-Stack Web Dev / Software Engineer </p>
 
           </div>)
   }

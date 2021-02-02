@@ -6,11 +6,11 @@ import AboutMe from '../about_component/about.js';
 
 function HomePage(){
   return (
-    <div>
-      <Container className="home_container">
+    <div className="home_container">
+      
         <AboutMe />
-        <Projects/>
-      </Container>
+        {/* <Projects/> */}
+      
     </div>
   )
 }

@@ -5,6 +5,7 @@ import AboutMe from './views/about_component/about.js'
 import Footer from './views/footer/footer.js';
 import {Switch, Route} from 'react-router-dom';
 import {Container} from 'reactstrap'
+import AboutPage from './views/about_component/AboutMePage.js';
 
 function App() {
 return (
@@ -12,16 +13,16 @@ return (
      <header>
       <Header/>
     </header>
-    <Container className="body-container" fluid={true} >
+    <Container className="body-container"  >
     <Switch>
       <Route exact path="/">
         <HomePage />
       </Route>
-      <Route path='/'>
-        <AboutMe />
+
+      <Route path='/AboutMe'>
+        <AboutPage />
       </Route>
     </Switch>
-    <Footer />
    </Container>
   </div>
 );
