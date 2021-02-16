@@ -19,7 +19,7 @@ const items = [
   }
 ]
 
-const CarouselComponent = () => {
+const CarouselComponent = (props) => {
 
     const [activeIndex, setActiveIndex] = useState(0)
 
@@ -45,8 +45,29 @@ const CarouselComponent = () => {
         setActiveIndex(newIndex);
     }
 
+    console.log(items.map(i => console.log))
+
+    // const slides = items.map((item) => {
+    //     return(
+    //         <CarouselItem
+    //             onExiting={()=> setAnimating(true)}
+    //             onExited={() => setAnimating(false)}
+    //             key={item.src}
+    //             >
+    //             <img src={item.src} alt={item.altText} />
+    //             <CarouselCaption captionText={item.caption} />
+    //         </CarouselItem>
+    //     )
+    // })
+
     return(
         <div className="carousel-component">
+            {/* <Carousel>
+                <CarouselIndicators />
+                {slides}
+                <CarouselControl />
+                <CarouselControl />
+            </Carousel> */}
         </div>
     )
 }
