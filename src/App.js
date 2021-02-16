@@ -9,7 +9,8 @@ import {Container} from 'reactstrap';
 import NavbarMenu from './navbar/Navbar.js';
 
 // Components
-import About from './views/About.js';
+import About from './views/About/About.js';
+import CarouselComponent from './views/Carousel/Carousel.js';
 
 
 function App() {
@@ -22,6 +23,8 @@ return (
 
     <Container>
       < About />
+      
+      <CarouselComponent />
     </Container>
   </div>
 );
