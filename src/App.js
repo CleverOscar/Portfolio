@@ -1,5 +1,7 @@
 import React from 'react';
 
+import {Container, Row, Col} from 'reactstrap';
+
 // Views
 
 // Navbar
@@ -17,6 +19,14 @@ return (
     <div>
       <NavbarMenu />
     </div>
+
+    <Container>
+      <Row>
+        <Col>
+          < About />
+        </Col>
+      </Row>
+    </Container>
   </div>
 );
 }
