@@ -33,11 +33,24 @@ const NavbarMenu = () => {
                                 About
                             </NavLink>
                         </NavItem>
-                        <NavItem>
-                            <NavLink>
+                        <UncontrolledDropdown nav inNavbar>
+                            <DropdownToggle nav caret>
                                 Projects
-                            </NavLink>
-                        </NavItem>
+                            </DropdownToggle>
+                            <DropdownMenu right>
+                                <DropdownItem>
+                                    Vianna Brothers
+                                </DropdownItem>
+                                < DropdownItem divider />
+                                <DropdownItem>
+                                    Neighborhood Chef
+                                </DropdownItem>
+                                < DropdownItem divider />
+                                < DropdownItem >
+                                    Miracle Messages Map API
+                                </ DropdownItem >
+                            </DropdownMenu>
+                        </UncontrolledDropdown>
                     </Nav>
                 </Collapse>
             </Navbar>
