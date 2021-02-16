@@ -17,8 +17,6 @@ return (
     <div>
       <NavbarMenu />
     </div>
-
-    Clever Oscar Dev
   </div>
 );
 }
