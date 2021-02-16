@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {Container, Row, Col} from 'reactstrap';
+import {Container} from 'reactstrap';
 
 // Views
 
@@ -21,11 +21,7 @@ return (
     </div>
 
     <Container>
-      <Row>
-        <Col>
-          < About />
-        </Col>
-      </Row>
+      < About />
     </Container>
   </div>
 );
