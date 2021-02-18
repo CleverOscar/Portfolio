@@ -18,7 +18,7 @@ class App extends React.Component {
       items: [
         {
           id: 1,
-          src: 'https://dummyimage.com/hd720',
+          src: 'https://www.denofgeek.com/wp-content/uploads/2019/08/venom_5.jpg?fit=620%2C348',
           altText: 'Slide 1',
           caption: 'Slide 1'
         }, {
