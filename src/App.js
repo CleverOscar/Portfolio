@@ -8,7 +8,6 @@ import NavbarMenu from './navbar/Navbar.js';
 
 // Components
 import About from './views/About/About.js';
-import CarouselComponent from './views/Carousel/Carousel.js';
 
 
 class App extends React.Component {
@@ -18,9 +17,9 @@ class App extends React.Component {
       items: [
         {
           id: 1,
-          src: 'https://www.denofgeek.com/wp-content/uploads/2019/08/venom_5.jpg?fit=620%2C348',
-          altText: 'Slide 1',
-          caption: 'Slide 1'
+          src: "https://i.ibb.co/LvXnrpS/Screen-Shot-2021-02-18-at-8-44-58-PM.png",
+          altText: 'Vianna Brothers Jiu Jitsu',
+          caption: 'Vianna Brothers Jiu Jitsu'
         }, {
           id: 2,
           src: 'https://dummyimage.com/hd720',
@@ -35,11 +34,13 @@ class App extends React.Component {
       ],  
     }
   }
+
   
   render() {
+
+
     return (
     <div className="App">
-
       <div>
         <NavbarMenu />
       </div>
@@ -47,7 +48,14 @@ class App extends React.Component {
       <Container>
         < About />
         
-        <CarouselComponent carouselProps={this.state.items} />
+
+        <ul>
+          {this.state.items.map(item => 
+            <li key={item.id}>
+              <img  src={item.src} alt={item.altText} />
+            </li>  
+          )}
+        </ul>
       </Container>
     </div>
   )
