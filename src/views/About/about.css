@@ -1,0 +1,18 @@
+.about-container {
+    border: 4px solid rgb(56, 56, 56);
+    margin-top: 50px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 15px 5px 20px black;
+}
+
+.about-container h3 {
+    text-align: center;
+}
+
+.about-container img {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid blue; */
+    border-radius: 10px;
+}

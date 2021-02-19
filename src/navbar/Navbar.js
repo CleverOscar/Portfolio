@@ -52,6 +52,7 @@ const NavbarMenu = () => {
                             </DropdownMenu>
                         </UncontrolledDropdown>
                     </Nav>
+                    <NavbarText> Happy Coding :)</NavbarText>
                 </Collapse>
             </Navbar>
         </div>
