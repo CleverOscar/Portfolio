@@ -9,8 +9,9 @@ import NavbarMenu from './navbar/Navbar.js';
 // Components
 import About from './views/About/About.js';
 import Gallary from './views/Image_Gallary/ImageList.js'
+import Footer from './views/Footer/Footer.js';
 
-
+ 
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -24,19 +25,19 @@ class App extends React.Component {
         }, {
           id: 2,
           src: 'https://i.ibb.co/vmDSSGC/Screen-Shot-2021-02-18-at-8-59-59-PM.png',
-          altText: 'Slide 2',
-          caption: 'Slide 2'
+          altText: 'Miracle Messages MAP API',
+          caption: 'Miracle Messages MAP API'
         }, {
           id: 3,
           src: 'https://i.ibb.co/k87YxLv/Screen-Shot-2021-02-18-at-9-01-41-PM.png',
-          altText: 'Slide 3',
-          caption: 'Slide 3'
+          altText: 'CanJs Video Guide',
+          caption: 'CanJs Video Guide'
         }
       ],  
     }
   }
 
-  
+
   render() {
 
 
@@ -48,12 +49,12 @@ class App extends React.Component {
 
       <Container>
         < About />
+      
+        <Gallary images={this.state.images} />
         
-
-        <ul>
-          <Gallary image={this.state.images} />
-        </ul>
       </Container>
+
+      <Footer />
     </div>
   )
   }
