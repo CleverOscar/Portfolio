@@ -14,6 +14,8 @@ import {
     NavbarText
 } from 'reactstrap';
 
+import './navbar.css';
+
 const NavbarMenu = () => {
 
     // simple logic for navbar
@@ -22,7 +24,7 @@ const NavbarMenu = () => {
     const toggle = () => setIsOpen(!isOpen);
 
     return(
-        <div>
+        <div className="navbarcss">
             <Navbar color="light" light expand="md">
                 <NavbarBrand href="/">Clever Oscar</NavbarBrand>
                 <NavbarToggler onClick={toggle} />

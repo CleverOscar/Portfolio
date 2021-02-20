@@ -9,8 +9,9 @@ import NavbarMenu from './navbar/Navbar.js';
 // Components
 import About from './views/About/About.js';
 import Gallary from './views/Image_Gallary/ImageList.js'
+import Footer from './views/Footer/Footer.js';
 
-
+ 
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -48,11 +49,12 @@ class App extends React.Component {
 
       <Container>
         < About />
-        
-
+      
         <Gallary images={this.state.images} />
         
       </Container>
+
+      <Footer />
     </div>
   )
   }
