@@ -14,8 +14,15 @@
     background-color: #717171;
 }
 
-.footer_header {
+.contact_header {
     text-align: center;
-    border: 2px solid black;
     padding-top: 50px;
+}
+
+.contact_form {
+    border: 2px solid red;
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgb(192, 77, 77);
+    height: 100%;
 }

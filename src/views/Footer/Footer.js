@@ -1,10 +1,12 @@
 import React from 'react';
 import './Footer.css';
 
+import ContactForm from './Contact/Contact.js'
+
 const Footer = (props) => (
     <div className='footer_component'>
         <div className="upperFooter">
-            <h3 className="footer_header">Contact Me / Let's Work Together</h3>
+            <ContactForm />
         </div>
         <div className="bottomFooter">
 
