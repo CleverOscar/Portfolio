@@ -18,9 +18,6 @@ code {
   height: 2000px;
 }
 
-.App ul {
-  list-style-type: none;
-}
 
 .header_component {
   border: 10px solid black;

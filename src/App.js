@@ -24,19 +24,19 @@ class App extends React.Component {
         }, {
           id: 2,
           src: 'https://i.ibb.co/vmDSSGC/Screen-Shot-2021-02-18-at-8-59-59-PM.png',
-          altText: 'Slide 2',
-          caption: 'Slide 2'
+          altText: 'Miracle Messages MAP API',
+          caption: 'Miracle Messages MAP API'
         }, {
           id: 3,
           src: 'https://i.ibb.co/k87YxLv/Screen-Shot-2021-02-18-at-9-01-41-PM.png',
-          altText: 'Slide 3',
-          caption: 'Slide 3'
+          altText: 'CanJs Video Guide',
+          caption: 'CanJs Video Guide'
         }
       ],  
     }
   }
 
-  
+
   render() {
 
 
@@ -50,9 +50,8 @@ class App extends React.Component {
         < About />
         
 
-        <ul>
-          <Gallary image={this.state.images} />
-        </ul>
+        <Gallary images={this.state.images} />
+        
       </Container>
     </div>
   )

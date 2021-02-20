@@ -1,15 +1,21 @@
 import React from 'react';
-import {Col} from 'reactstrap';
+import {Row, Col} from 'reactstrap';
+import './ImageList.css';
+
 const Gallary = (props) => (
-
-        <Col xs='2'>
-
-            {props.image.map(item => 
-                    <li key={item.id}>
-                    <img alt={item.altText} src={item.src} />
-                </li>
-            )} 
-        </Col >
+    <Row>
+        {props.images.map(img =>
+            <Col 
+                className="gallaryImages" xs="auto" 
+                key={img.id}>
+                
+                <img 
+                    src={img.src} 
+                    alt={img.altText} />
+                <p>{img.caption}</p>
+            </Col>
+        )}
+    </Row>
 )
 
 export default Gallary;
