@@ -13,12 +13,27 @@ const ContactForm =  (props) => (
                 <Col md={3} />
                 <Col md={6}>
                     <FormGroup>
-                        <Label>Full Name</Label>
-                        <Input placeholder="Full Name"/>
+                        <Label 
+                            for="name"> 
+                                Full Name
+                         </Label>
+                        <Input 
+                            type="text"
+                             placeholder="Full Name"/>
                     </FormGroup>
                 </Col>
                 <Col md={3} />
             </Row>
+            <Row>
+                <Col col={6} >
+                    <FormGroup>
+                        <Label>Phone Number</Label>
+                        <Input type="number" placeholder="phone number" />
+                    </FormGroup>
+                </Col>
+            </Row>
+
+            <Button>Submit</Button>
         </Form>
 
     </div>
