@@ -23,3 +23,13 @@ code {
   border-style: double;
 }
 
+
+
+/* Contact Form Stlyes */
+
+.contact_form { 
+  border: 2px solid black;
+  width: auto;
+  margin-top: 150px;
+  padding: 10px;
+}
