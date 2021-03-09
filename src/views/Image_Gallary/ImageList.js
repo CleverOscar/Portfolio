@@ -8,13 +8,17 @@ const Gallary = (props) => (
         <Row>
             {props.images.map(img =>
                 <Col 
-                    className="gallaryImages" xs="auto" 
+                    className="gallaryImages" xs="auto"
+                    sm="6"
+                    md="6"
                     key={img.id}>
-                    
-                    <img 
+
+                    <h6>{img.caption}</h6> 
+                    <img
+                        className=""
                         src={img.src} 
                         alt={img.altText} />
-                    <p>{img.caption}</p>
+                   
                 </Col>
             )}
         </Row>
