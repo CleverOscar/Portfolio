@@ -16,6 +16,7 @@ code {
 .App {
   margin: 0 auto;
   height: 2000px;
+  margin-top: 100px;
 }
 
 .header_component {
@@ -23,13 +24,15 @@ code {
   border-style: double;
 }
 
-
-
 /* Contact Form Stlyes */
 
 .contact_form { 
   border: 2px solid black;
   width: auto;
-  margin-top: 150px;
+  margin-top: 75px;
   padding: 10px;
+}
+
+.contact_title {
+  text-align: center;
 }

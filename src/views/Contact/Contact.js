@@ -5,17 +5,30 @@ import {Row, Col, Form, Button, FormGroup, Label, Input} from 'reactstrap';
 
 const ContactForm =  (props) => (
     <div className="contact_form">
-        <h3 className="contact_header">Contact Form</h3>
-
+        <h3 className="contact_title">Contact Form</h3> 
         <Form>
-            <FormGroup>
+        <FormGroup>
+            <Col>
                 <Label>
-                    Full Name
+                    Full Name:
                 </Label>
-                <Input type="text" placeholder="Full Name" />
-            </FormGroup>
+            </Col>
+            <Input type="text" placeholder="Full Name" />
+        </FormGroup>
+        <FormGroup>
+            <Col>
+                <Label>
+                    Email: 
+                </Label>
+            </Col>
+            <Input type="email" placeholder="Email" />
+        </FormGroup>
+        <FormGroup>
+            <Label for="exampleText">Text Area</Label>
+            <Input type="textarea" name="text" id="exampleText" />
+        </FormGroup>
+        <Button>Submit</Button>
         </Form>
-
     </div>
 )
 

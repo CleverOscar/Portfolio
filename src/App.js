@@ -42,11 +42,11 @@ class App extends React.Component {
 
     return (
     <div className="App">
-      <div>
+      <header>
         <NavbarMenu />
-      </div>
+      </header>
 
-      <Container>
+      <Container className="main">
         < About />
         <Gallary images={this.state.images} />
         < ContactForm / >

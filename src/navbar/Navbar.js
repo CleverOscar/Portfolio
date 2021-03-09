@@ -24,8 +24,8 @@ const NavbarMenu = () => {
     const toggle = () => setIsOpen(!isOpen);
 
     return(
-        <div className="navbarcss">
-            <Navbar color="light" light expand="md">
+        <div className="navbarFixed">
+            <Navbar fixed="top" color="light" light expand="md">
                 <NavbarBrand href="/">Clever Oscar</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>

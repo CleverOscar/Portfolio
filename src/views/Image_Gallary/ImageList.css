@@ -6,6 +6,9 @@
 
 .gallaryImages img {
     width: 100%;
+    border: 5px solid black;
+    height: 100%;
+    box-shadow: 12px 12px 2px 1px rgba(50, 50, 128, 0.2);
 }
 
 .projects_header {
