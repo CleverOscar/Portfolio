@@ -14,6 +14,8 @@ import AboutPage from './views/About/AboutPage.js';
 import Gallary from './views/Image_Gallary/ImageList.js'
 import ContactForm from './views/Contact/Contact.js';
 
+import ProjectsPage from './views/Image_Gallary/ProjectsPage.js';
+
  
 class App extends React.Component {
   constructor(props) {
@@ -54,6 +56,11 @@ class App extends React.Component {
           <Route path="/about">
             <AboutPage />
           </Route>
+
+          <Route path="/projects">
+            <ProjectsPage images={this.state.images} />
+          </Route>
+
           <Route exact path="/">
               <h1 className="title">Full-Stack Web Developer</h1>
               < About />
