@@ -36,3 +36,8 @@ code {
 .contact_title {
   text-align: center;
 }
+
+.title {
+  text-align: center;
+  font-style: italic;
+}

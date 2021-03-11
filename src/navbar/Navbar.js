@@ -14,6 +14,11 @@ import {
     NavbarText
 } from 'reactstrap';
 
+import {Switch, Route, Link} from 'react-router-dom';
+
+import About from '../views/About/About.js';
+
+
 import './navbar.css';
 
 const NavbarMenu = () => {
@@ -31,9 +36,11 @@ const NavbarMenu = () => {
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar>
                         <NavItem>
-                            <NavLink>
-                                About
-                            </NavLink>
+                            
+                                <NavLink href="/about" >
+                                    About
+                                </NavLink>
+                            
                         </NavItem>
                         <UncontrolledDropdown nav inNavbar>
                             <DropdownToggle nav caret>

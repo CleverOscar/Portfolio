@@ -4,12 +4,16 @@ import {Container} from 'reactstrap';
 
 // Views
 // Navbar
+import {Switch, Route} from 'react-router-dom';
+
 import NavbarMenu from './navbar/Navbar.js';
 
 // Components
 import About from './views/About/About.js';
+import AboutPage from './views/About/AboutPage.js';
 import Gallary from './views/Image_Gallary/ImageList.js'
 import ContactForm from './views/Contact/Contact.js';
+
  
 class App extends React.Component {
   constructor(props) {
@@ -45,12 +49,20 @@ class App extends React.Component {
       <header>
         <NavbarMenu />
       </header>
-
       <Container className="main">
-        < About />
-        <Gallary images={this.state.images} />
-        < ContactForm / >
+        <Switch>
+          <Route path="/about">
+            <AboutPage />
+          </Route>
+          <Route exact path="/">
+              <h1 className="title">Full-Stack Web Developer</h1>
+              < About />
+              <Gallary images={this.state.images} />
+              < ContactForm / >
+          </Route>
+        </Switch>
       </Container>
+      
     </div>
   )
   }
