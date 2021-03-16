@@ -64,7 +64,6 @@ class App extends React.Component {
           <Route exact path="/">
               <h1 className="title">Full-Stack Web Developer</h1>
               < About />
-              <Gallary images={this.state.images} />
               < ContactForm / >
           </Route>
         </Switch>
