@@ -8,6 +8,10 @@ body {
   overflow: auto;
 }
 
+div.App {
+  background-color: #364958;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -16,7 +20,7 @@ code {
 .App {
   margin: 0 auto;
   height: 2000px;
-  margin-top: 100px;
+  margin-top: 55px;
 }
 
 .header_component {
@@ -41,3 +45,16 @@ code {
   text-align: center;
   font-style: italic;
 }
+
+/* 
+ color Pallete 
+
+ {
+   "Tea Green": "c9e4ca", 
+   "Eton Blue":"87bba2", 
+   "Steel Teal":"55828b", 
+   "Deep Space Sparkle":"3b6064", 
+   "Charcoal":"364958"
+ }
+
+*/

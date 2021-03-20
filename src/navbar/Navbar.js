@@ -48,7 +48,6 @@ const NavbarMenu = () => {
                             </NavLink>
                         </NavItem>
                     </Nav>
-                    <NavbarText> Happy Coding :)</NavbarText>
                 </Collapse>
             </Navbar>
         </div>
