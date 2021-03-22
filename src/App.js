@@ -14,6 +14,8 @@ import AboutPage from './views/About/AboutPage.js';
 import Gallary from './views/Image_Gallary/ImageList.js'
 import ContactForm from './views/Contact/Contact.js';
 
+import Footer from './views/Footer/Footer.js'
+
 import ProjectsPage from './views/Image_Gallary/ProjectsPage.js';
 
  
@@ -63,12 +65,12 @@ class App extends React.Component {
 
           <Route exact path="/">
               <h1 className="title">Full-Stack Web Developer</h1>
-              < About />
-              < ContactForm / >
+
+              <button> Contact </button>
           </Route>
         </Switch>
       </Container>
-      
+      < Footer / >
     </div>
   )
   }
