@@ -65,8 +65,6 @@ class App extends React.Component {
 
           <Route exact path="/">
               <h1 className="title">Full-Stack Web Developer</h1>
-
-              <button> Contact </button>
           </Route>
         </Switch>
       </Container>

@@ -8,14 +8,14 @@ import './about.css';
 const About = () => {
     return (<div className="about-container">   
        <Row>
-           <Col xs="auto" md="6">
+           <Col xs="auto" sm="auto" md="auto" >
              < img src = {
                  'https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/35686839_2000045286694293_6539718802064539648_o.jpg?_nc_cat=105&ccb=1-3&_nc_sid=174925&_nc_ohc=MWS178PdUCwAX_KwzfG&_nc_ht=scontent-ort2-2.xx&oh=71b061bf46af60053af18ad8beeb98bd&oe=607DA1AF'
              }
              alt = 'Oscar Self Portriat' /
                  >
            </Col>
-           <Col md="6">
+           <Col sm="auto" md="auto">
                 <h3>
                     About Me
                 </h3>
