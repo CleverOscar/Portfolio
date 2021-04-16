@@ -17,3 +17,21 @@
     /* border: 1px solid blue; */
     border-radius: 10px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .about-container {
+        width: 75%;
+        margin: 0px auto;
+    }
+}
+
+@media only screen and (max-width: 1800px) {
+    .about-container {
+        width: 50%;
+        margin: 0px auto;
+    }
+}
+
+
+

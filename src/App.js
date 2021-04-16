@@ -18,7 +18,7 @@ import Footer from './views/Footer/Footer.js'
 
 import ProjectsPage from './views/Image_Gallary/ProjectsPage.js';
 
- 
+  
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -65,10 +65,11 @@ class App extends React.Component {
 
           <Route exact path="/">
               <h1 className="title">Full-Stack Web Developer</h1>
+              <About />
           </Route>
         </Switch>
       </Container>
-      < Footer / >
+      < Footer />
     </div>
   )
   }
