@@ -7,11 +7,6 @@ import {
     Nav,
     NavItem,
     NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem,
-    NavbarText
 } from 'reactstrap';
 
 import {Switch, Route, Link} from 'react-router-dom';
@@ -48,7 +43,6 @@ const NavbarMenu = () => {
                             </NavLink>
                         </NavItem>
                     </Nav>
-                    <NavbarText> Happy Coding :)</NavbarText>
                 </Collapse>
             </Navbar>
         </div>
