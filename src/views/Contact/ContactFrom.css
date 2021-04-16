@@ -1,0 +1,18 @@
+.contact_form {
+    border: 5px solid black;
+    width: 80%;
+    padding: 10px;
+    margin: 0px auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    box-shadow: 10px 5px 5px black;
+}
+
+.contact_title {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    font-style: italic;
+}

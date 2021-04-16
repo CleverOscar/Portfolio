@@ -31,23 +31,6 @@ code {
   border-style: double;
 }
 
-/* Contact Form Stlyes */
-
-.contact_form { 
-  border: 2px solid black;
-  width: auto;
-  margin-top: 75px;
-  padding: 10px;
-}
-
-.contact_title {
-  text-align: center;
-}
-
-.title {
-  text-align: center;
-  font-style: italic;
-}
 
 .footer_component {
   border: 2px solid red;

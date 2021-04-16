@@ -2,6 +2,8 @@ import React from 'react';
 
 import {Row, Col, Form, Button, FormGroup, Label, Input} from 'reactstrap';
 
+import './ContactFrom.css';
+
 
 const ContactForm =  (props) => (
     <div className="contact_form">
@@ -9,25 +11,22 @@ const ContactForm =  (props) => (
         <Form>
         <FormGroup>
             <Col>
-                <Label>
-                    Full Name:
-                </Label>
+                <Input type="text" placeholder="Full Name" />
             </Col>
-            <Input type="text" placeholder="Full Name" />
         </FormGroup>
         <FormGroup>
             <Col>
-                <Label>
-                    Email: 
-                </Label>
+                <Input type="email" placeholder="Email" />
             </Col>
-            <Input type="email" placeholder="Email" />
         </FormGroup>
         <FormGroup>
-            <Label for="exampleText">Text Area</Label>
-            <Input type="textarea" name="text" id="exampleText" />
+            <Col>
+                <Input type="textarea" name="text" id="exampleText" />
+            </Col>
         </FormGroup>
-        <Button>Submit</Button>
+            <Col>
+                 <Button>Submit</Button>
+            </Col>
         </Form>
     </div>
 )
