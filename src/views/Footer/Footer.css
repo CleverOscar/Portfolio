@@ -1,0 +1,18 @@
+.footer_component {
+    border: 5px solid black;
+    width: 100%;
+    height: 30vh;
+    background-color: #55828b;
+}
+
+.footer-titles {
+    display: flex;
+    flex-direction:row;
+    text-align: center
+}
+
+.footer-titles h5 {
+    width: 40%; 
+    margin: 0px auto;
+    margin-top: 15px
+}
