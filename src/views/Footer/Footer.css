@@ -5,14 +5,23 @@
     background-color: #55828b;
 }
 
-.footer-titles {
+.footer-content {
     display: flex;
     flex-direction:row;
     text-align: center
 }
 
-.footer-titles h5 {
+.footer-content h5 {
     width: 40%; 
     margin: 0px auto;
     margin-top: 15px
+}
+
+.footer-content .links {
+    color:white;
+    width:45%;
+}
+
+.footer-content ul {
+    list-style-type: none;
 }

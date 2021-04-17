@@ -4,13 +4,13 @@ import './Footer.css';
 
 const Footer = (props) => (
     <div className='footer_component'>
-            <div className="footer-titles">
-                <h5>Social</h5>
-                <h5>Links</h5>
-            </div>
+        <div className="footer-content">
+            <h5>Social</h5>
+            <h5>Links</h5>
+        </div>
 
-            
-                <div className="links">
+        <div className="footer-content">
+            <div className="links">
                     <ul>
                         <li>
                             LinkedIn
@@ -37,6 +37,9 @@ const Footer = (props) => (
                         </li>
                     </ul>
                 </div>
+        </div>
+            
+        
             
     </div>
 )
