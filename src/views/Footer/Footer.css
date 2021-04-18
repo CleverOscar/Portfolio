@@ -1,27 +1,29 @@
 .footer_component {
     border: 5px solid black;
     width: 100%;
-    height: 30vh;
+    height: auto;
     background-color: #55828b;
 }
 
 .footer-content {
     display: flex;
     flex-direction:row;
-    text-align: center
 }
 
-.footer-content h5 {
+.footer-content h4 {
     width: 40%; 
     margin: 0px auto;
-    margin-top: 15px
+    margin-top: 15px;
+    text-align: center;
 }
 
 .footer-content .links {
     color:white;
-    width:45%;
+    width:50%;
 }
 
 .footer-content ul {
     list-style-type: none;
+    text-align: center;
+    padding: 0px;
 }

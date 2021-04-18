@@ -5,8 +5,8 @@ import './Footer.css';
 const Footer = (props) => (
     <div className='footer_component'>
         <div className="footer-content">
-            <h5>Social</h5>
-            <h5>Links</h5>
+            <h4>Social</h4>
+            <h4>Links</h4>
         </div>
 
         <div className="footer-content">
@@ -40,7 +40,7 @@ const Footer = (props) => (
         </div>
             
         
-            
+             
     </div>
 )
 
