@@ -5830,6 +5830,13 @@
   "resolved" "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.6.tgz"
   "version" "4.2.6"
 
+"graphql@^0.13.0":
+  "integrity" "sha512-WlO+ZJT9aY3YrBT+H5Kk+eVb3OVVehB9iRD/xqeHdmrrn4AFl5FIcOpfHz/vnBr6Y6JthGMlnFqU8XRnDjSR7A=="
+  "resolved" "https://registry.npmjs.org/graphql/-/graphql-0.13.0.tgz"
+  "version" "0.13.0"
+  dependencies:
+    "iterall" "1.1.x"
+
 "growly@^1.3.0":
   "integrity" "sha1-8QdIy+dq+WS3yWyTxrzCivEgwIE="
   "resolved" "https://registry.npmjs.org/growly/-/growly-1.3.0.tgz"
@@ -6824,10 +6831,22 @@
     "html-escaper" "^2.0.0"
     "istanbul-lib-report" "^3.0.0"
 
+<<<<<<< Updated upstream
 "jest-changed-files@^26.6.2":
   "integrity" "sha512-fDS7szLcY9sCtIip8Fjry9oGf3I2ht/QT21bAHm5Dmf0mD4X3ReNUf17y+bO6fR8WgbIZTlbyG1ak/53cbRzKQ=="
   "resolved" "https://registry.npmjs.org/jest-changed-files/-/jest-changed-files-26.6.2.tgz"
   "version" "26.6.2"
+=======
+"iterall@1.1.x":
+  "integrity" "sha512-eaDsM/PY8D/X5mYQhecVc5/9xvSHED7yPON+ffQroBeTuqUVm7dfphMkK8NksXuImqZlVRoKtrNfMIVCYIqaUQ=="
+  "resolved" "https://registry.npmjs.org/iterall/-/iterall-1.1.4.tgz"
+  "version" "1.1.4"
+
+"jest-changed-files@^24.9.0":
+  "integrity" "sha512-6aTWpe2mHF0DhL28WjdkO8LyGjs3zItPET4bMSeXU6T3ub4FPMw+mcOcbdGXQOAfmLcxofD23/5Bl9Z4AkFwqg=="
+  "resolved" "https://registry.npmjs.org/jest-changed-files/-/jest-changed-files-24.9.0.tgz"
+  "version" "24.9.0"
+>>>>>>> Stashed changes
   dependencies:
     "@jest/types" "^26.6.2"
     "execa" "^4.0.0"
