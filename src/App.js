@@ -67,6 +67,7 @@ class App extends React.Component {
               <h1 className="title">Full-Stack Web Developer</h1>
               <About />
               <ProjectsPage images={this.state.images} />
+              
               <ContactForm />
           </Route>
         </Switch>
