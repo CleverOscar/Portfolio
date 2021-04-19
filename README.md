@@ -1,7 +1,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9e2418d5-b5c7-4fcb-b0f9-c41bb46784f1/deploy-status)](https://app.netlify.com/sites/cleveroscar/deploys)
 
 <h1 align="center">Hi 👋, I'm Oscar Ortiz</h1>
-<h3 align="center">A passionate Full-Stack developer from Chicago</h3> <h4>portfolio: https://cleveroscar.netlify.app/</h4>
+<h3 align="center">A passionate Full-Stack developer from Chicago</h3> <h4>portfolio: https://cleveroscar.dev/</h4>
 
 - 🔭 I’m currently working on **a community page**
 
