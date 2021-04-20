@@ -19,19 +19,37 @@
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
     .about-container {
-        width: 75%;
+        width: 59%;
         margin: 0px auto;
     }
 }
 
-@media only screen and (max-width: 1800px) {
+<<<<<<< Updated upstream
+@media only screen and (min-width: 1801px) {
+    .about-container {
+        width: 55%;
+=======
+@media only screen and (min-width: 1000px) {
+    .about-container {
+        width: 75%;
+>>>>>>> Stashed changes
+        margin: 0px auto;
+    }
+}
+
+@media only screen and (min-width: 1800px) {
     .about-container {
         width: 50%;
         margin: 0px auto;
     }
 }
 
-
+@media only screen and (min-width: 2000px) {
+    .about-container {
+        width: 60%;
+        margin: 0px auto;
+    }
+}
 
