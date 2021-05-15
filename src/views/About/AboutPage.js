@@ -15,19 +15,55 @@ const AboutPage = () => {
                 <Col sm="6" md="6" lg="6">
                     <Card>
                         <CardTitle className="card-header">Web Developer Skills</CardTitle>
-                        <ul>
-                            Front-End
-                            <li>
+                        <CardBody>
+                            <Col lg="12">
+                                <ul>
+                                    Front-End
+                                    <li>
+                                        HTML
+                                    </li>
+                                    <li>
+                                        CSS
+                                    </li>
+                                    <li>
+                                        Javascript
+                                    </li>
+                                    <li>
+                                        SPA (Single Page Applications)
+                                    </li>
+                                    <li>
+                                        ReactJs (reactstrap, bootstrap, etc)
+                                    </li>
+                                    <li>
+                                        CanJs
+                                    </li>
+                                    <li>
+                                        React-Router-Dom
+                                    </li>
+                                    <li>
+                                        Redux
+                                    </li>
+                                </ul>
+                            </Col>
 
-                            </li>
-                        </ul>
-
-                        <ul>
-                            Back-End
-                            <li>
-
-                            </li>
-                        </ul>
+                            <Col lg="12">
+                                <ul>
+                                    Back-End
+                                    <li>
+                                        NodeJs
+                                    </li>
+                                    <li>
+                                        ExpressJs
+                                    </li>
+                                    <li>
+                                        CRUD
+                                    </li>
+                                    <li>
+                                        API's
+                                    </li>
+                                </ul>
+                            </Col>
+                        </CardBody>
                     </Card>
                 </Col>
             </Row>
