@@ -9,7 +9,7 @@ const About = () => {
     return (<div className="about-container">   
        <Row>
            <Col xs="auto" sm="auto" md="auto" >
-             <img src={'https://i.ibb.co/SnDDJ99/45219372-2219308534767966-7383583342043594752-n.jpg'}
+            <img src={'https://i.ibb.co/SnDDJ99/45219372-2219308534767966-7383583342043594752-n.jpg'}
              alt='Oscar Self Portriat'/>
            </Col>
            <Col sm="auto" md="auto">

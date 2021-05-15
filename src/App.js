@@ -59,7 +59,7 @@ class App extends React.Component {
       <Container className="main">
         <Switch>
           <Route path="/about">
-            <AboutPage />
+            <About />
           </Route>
 
           <Route path="/projects">
@@ -67,11 +67,8 @@ class App extends React.Component {
           </Route>
 
           <Route exact path="/">
-              <h1 className="title">Full-Stack Web Developer</h1>
-              <About />
-
+              <AboutPage />
               <ProjectsPage images={this.state.images} />
-              
               <ContactForm />
           </Route>
         </Switch>
