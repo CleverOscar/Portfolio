@@ -9,16 +9,8 @@ const About = () => {
     return (<div className="about-container">   
        <Row>
            <Col xs="auto" sm="auto" md="auto" >
-<<<<<<< Updated upstream
              <img src={'https://i.ibb.co/SnDDJ99/45219372-2219308534767966-7383583342043594752-n.jpg'}
              alt='Oscar Self Portriat'/>
-=======
-             < img src = {
-                 'https://i.ibb.co/6PccNff/45219372-2219308534767966-7383583342043594752-n.jpg'
-             }
-             alt = 'Oscar Self Portriat' /
-                 >
->>>>>>> Stashed changes
            </Col>
            <Col sm="auto" md="auto">
                 <h3>

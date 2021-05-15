@@ -1,6 +1,3 @@
-html {
-  height: 100%;
-}
 
 body {
   margin: 0;
@@ -10,9 +7,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow: auto;
-background-image: url("https://i.ibb.co/nfHYmNF/pankaj-patel-Sg-RNw-AVNKw-unsplash.jpg");
-background-repeat: no-repeat;
-background-size: cover;
 }
 
 code {
@@ -20,10 +14,13 @@ code {
     monospace;
 }
 
+
 .App {
   margin: 0 auto;
   height: 100vh;
   margin-top: 55px;
+  background-image:linear-gradient(180deg, rgba(252, 250, 250, 1) 0%, rgba(200, 211, 213, 1) 43%, rgba(0, 212, 255, 1) 100%);
+  height: 100%;
 }
 
 .header_component {
@@ -47,13 +44,6 @@ code {
 .title {
   text-align: center;
   font-style: italic;
-}
-
-.footer_component {
-  border: 2px solid red;
-  width: 100%;
-  height: 20vh;
-  background-color: #55828b;
 }
 
 /* 
