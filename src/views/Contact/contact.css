@@ -1,0 +1,23 @@
+/* Contact Form Stlyes */
+
+.contact_form {
+    border: 5px solid black;
+    width: auto;
+    margin-top: 75px;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.contact_title {
+    text-align: center;
+    font-size: 25px;
+}
+
+.title {
+    text-align: center;
+    font-style: italic;
+}
+
+input.form-control {
+    height: 50px;
+}
