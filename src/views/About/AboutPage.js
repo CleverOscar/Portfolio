@@ -7,23 +7,19 @@ const AboutPage = () => {
     return(
         <div className="about-page">
             <Row>
-                <Col sm="6" md="6" lg="6">
+                <Col sm="6" md="6" lg="4">
                     <Card>
                         <CardImg src="https://i.ibb.co/NVp2HT7/50089375-2329313003767518-6695293280713703424-n.jpg" /> 
                     </Card>
                 </Col>
-                <Col sm="6" md="6" lg="6">
+                <Col sm="6" md="6" lg="4">
                     <Card>
                         <CardTitle className="card-header">Web Developer Skills</CardTitle>
                         <CardBody>
                             <Col lg="12">
                                 <ul>
-                                    Front-End
                                     <li>
-                                        HTML
-                                    </li>
-                                    <li>
-                                        CSS
+                                        HTML / CSS
                                     </li>
                                     <li>
                                         Javascript
@@ -48,7 +44,6 @@ const AboutPage = () => {
 
                             <Col lg="12">
                                 <ul>
-                                    Back-End
                                     <li>
                                         NodeJs
                                     </li>
@@ -60,6 +55,41 @@ const AboutPage = () => {
                                     </li>
                                     <li>
                                         API's
+                                    </li>
+                                </ul>
+                            </Col>
+                        </CardBody>
+                    </Card>
+                </Col>
+                <Col sm="6" md="6" lg="4">
+                    <Card>
+                        <CardTitle className="card-header">Software / Platforms</CardTitle>
+                        <CardBody>
+                            <Col lg="12">
+                                <ul>
+                                    <li>
+                                        Github (version control and source code)
+                                    </li>
+                                    <li>
+                                        Netlify / Heroku
+                                    </li>
+                                    <li>
+                                        
+                                    </li>
+                                    <li>
+                                        SPA (Single Page Applications)
+                                    </li>
+                                    <li>
+                                        ReactJs (reactstrap, bootstrap, etc)
+                                    </li>
+                                    <li>
+                                        CanJs
+                                    </li>
+                                    <li>
+                                        Postman
+                                    </li>
+                                    <li>
+                                        Google Domains(domain name registrar)
                                     </li>
                                 </ul>
                             </Col>
