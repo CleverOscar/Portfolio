@@ -37,6 +37,7 @@
     ]
   },
   "devDependencies": {
+    "netlify-cli": "^3.31.16",
     "nodemon": "^2.0.4"
   }
 }
