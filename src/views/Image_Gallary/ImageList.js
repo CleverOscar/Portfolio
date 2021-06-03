@@ -14,11 +14,12 @@ const Gallary = (props) => (
                     key={img.id}>
 
                     <h6>{img.caption}</h6> 
-                    <a href={img.url}>
+                    <a href={img.url} target="_blank">
                         <img
                         className=""
                         src={img.src} 
-                        alt={img.altText} />
+                        alt={img.altText} 
+                        />
                     </a>
                    
                 </Col>
