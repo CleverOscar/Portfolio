@@ -13,13 +13,13 @@ const Footer = (props) => (
             <div className="links">
                     <ul>
                         <li>
-                            LinkedIn
+                            <a href="https://www.linkedin.com/in/clever-oscar/" target="_blank"> LinkedIn</a>
                         </li>
                         <li>
-                            Twitter
+                            <a href="https://twitter.com/CleverOscarDev" target="_blank">Twitter</a>
                         </li>
                         <li>
-                            GitHub
+                            <a href="https://github.com/CleverOscar" target="_blank">Github`</a>
                         </li>
                     </ul>
                 </div>

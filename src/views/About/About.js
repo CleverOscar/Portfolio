@@ -17,7 +17,7 @@ const About = () => {
                     About Oscar
                 </h3>
                <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                   What started off as a hobby ended to turn out more than just that. Curious at a young age when myspace was a thing, messing around with html and basic css I thought I was a genius. But then I learned more that there was much more to it than just html and css, little did I know I was going into a new world of code. Now it's been about a decade since I can say I been some what programming. After being a self taught developer for some time, getting connected with people in meetups of chicago, landed my first internship, and then enrolled into Lambda School Bootcamp to touchen up my skills. I believe I have found my true passion in the software world. Building software to help others is something that gives me joy. 
                </p>
            </Col>
        </Row>

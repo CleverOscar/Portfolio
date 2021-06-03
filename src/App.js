@@ -11,7 +11,7 @@ import NavbarMenu from './navbar/Navbar.js';
 // Components
 import About from './views/About/About.js';
 import AboutPage from './views/About/AboutPage.js';
-import Gallary from './views/Image_Gallary/ImageList.js'
+// import Gallary from './views/Image_Gallary/ImageList.js'
 import ContactForm from './views/Contact/Contact.js';
 
 import Footer from './views/Footer/Footer.js'

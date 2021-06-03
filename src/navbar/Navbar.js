@@ -1,18 +1,9 @@
 import React, {useState} from 'react';
 import {
-    Collapse,
     Navbar,
     NavbarToggler,
     NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink,
 } from 'reactstrap';
-
-import {Switch, Route, Link} from 'react-router-dom';
-
-import About from '../views/About/About.js';
-
 
 import './navbar.css';
 
@@ -28,22 +19,6 @@ const NavbarMenu = () => {
             <Navbar fixed="top" color="light" light expand="md">
                 <NavbarBrand href="/">Clever Oscar</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
-                <Collapse isOpen={isOpen} navbar>
-                    <Nav className="mr-auto" navbar>
-                        <NavItem>
-                            
-                                <NavLink href="/about" >
-                                    About
-                                </NavLink>
-                            
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href='/projects'>
-                                Projects
-                            </NavLink>
-                        </NavItem>
-                    </Nav>
-                </Collapse>
             </Navbar>
         </div>
     )

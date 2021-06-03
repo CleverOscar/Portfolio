@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {Row, Col, Form, Button, FormGroup, Label, Input} from 'reactstrap';
+import {Col, Form, Button, FormGroup, Input} from 'reactstrap';
 import './contact.css';
 
 
