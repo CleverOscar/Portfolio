@@ -2,8 +2,8 @@
 
 .contact_form {
     border: 5px solid black;
-    width: auto;
-    margin-top: 75px;
+    width: 50%;
+    margin: 75px auto 75px;
     padding: 10px;
     background-color: rgba(0,0,0,0.2);
 }

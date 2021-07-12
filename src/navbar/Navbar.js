@@ -3,6 +3,11 @@ import {
     Navbar,
     NavbarToggler,
     NavbarBrand,
+    Nav, 
+    NavItem,
+    NavLink,
+    NavbarText, 
+    Collapse
 } from 'reactstrap';
 
 import './navbar.css';
@@ -19,6 +24,24 @@ const NavbarMenu = () => {
             <Navbar fixed="top" color="light" light expand="md">
                 <NavbarBrand href="/">Clever Oscar</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
+                  <Collapse isOpen={isOpen} navbar>
+                    <Nav className="mr-auto" navbar>
+                        <NavItem>
+                            
+                                <NavLink href="/about" >
+                                    About
+                                </NavLink>
+                            
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href='/projects'>
+                                Projects
+                            </NavLink>
+                        </NavItem>
+                    </Nav>
+                    <NavbarText> Happy Coding :)</NavbarText>
+                </Collapse>
+
             </Navbar>
         </div>
     )
